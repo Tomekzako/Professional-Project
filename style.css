@@ -166,3 +166,26 @@ video#bgvideo {
 #home .btn:hover {
     background-color: rgba(29, 167, 179, 0.5);
 }
+
+.container {
+    max-width: 1000px;
+}
+
+.about {
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.about h2 {
+    font-weight: bold;
+}
+
+.about p {
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.about img {
+    height: 120px;
+}
