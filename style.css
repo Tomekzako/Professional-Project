@@ -1,3 +1,7 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
 video#bgvideo {
     position: fixed;
     min-height: 100%;
@@ -6,6 +10,7 @@ video#bgvideo {
 }
 
 .navbar-custom {
+    font-size: 18px;
     background-color: #000000;
     border-color: #000000;
     background-image: -webkit-gradient(linear, left 0%, left 100%, from(#1a1a1a), to(#000000));
@@ -22,7 +27,7 @@ video#bgvideo {
 
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus {
-    color: #e6e6e6;
+    color: #ffffff;
     background-color: transparent;
 }
 
@@ -137,4 +142,27 @@ video#bgvideo {
 
 .navbar-custom .navbar-link:hover {
     color: #ffffff;
+}
+
+#home {
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    padding-top: 15%;
+}
+
+#home h2 {
+    margin-bottom: 50px;
+}
+
+#home .btn {
+    background-color: rgb(29, 167, 179);
+    color: #fff;
+    font-size: 20px;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+#home .btn:hover {
+    background-color: rgba(29, 167, 179, 0.5);
 }
