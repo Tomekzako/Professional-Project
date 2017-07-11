@@ -189,3 +189,12 @@ video#bgvideo {
 .about img {
     height: 120px;
 }
+
+.promise {
+    padding-top: 100px;
+}
+
+#myCarousel {
+    width: 60%;
+    margin: 0 auto;
+}
