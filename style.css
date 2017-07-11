@@ -198,3 +198,19 @@ video#bgvideo {
     width: 60%;
     margin: 0 auto;
 }
+
+.carousel-inner .item img {
+    height: 400px;
+    margin: 0 auto;
+}
+
+.carousel-caption {
+    position: relative;
+    left: 0;
+    right: 0;
+    height: 200px;
+}
+
+.carousel-caption h1 {
+    font-size: 2.5em;    
+}
