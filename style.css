@@ -212,5 +212,35 @@ video#bgvideo {
 }
 
 .carousel-caption h1 {
-    font-size: 2.5em;    
+    font-size: 2.5em;
+}
+
+@media (max-width:768px) {
+    .carousel-inner .item img {
+        height: 300px;
+    }
+    .carousel-inner h2 {
+        font-size: 23px;
+    }
+    body {
+        background-image: url(images/pexels-photo-287005.jpeg);
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    video#bgvideo {
+        display: none;
+    }
+}
+
+@media (max-width:400px) {
+    .carousel-inner .item img {
+        height: 200px;
+    }
+    .carousel-inner h2 {
+        font-size: 17px;
+    }
+    .navbar-brand {
+        font-size: 12px;
+    }
 }
