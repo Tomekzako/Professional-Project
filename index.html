@@ -12,11 +12,11 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#myNavbar">
     <video autoplay loop muted id="bgvideo">
         <source src="images/bgvideo.mp4" type="video/mp4">
     </video>
-    <nav role="navigation" class="navbar navbar-custom navbar-fixed-top">
+    <nav role="navigation" class="navbar navbar-custom navbar-fixed-top" id="myNavbar">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -44,7 +44,7 @@
             <p><a href="#" class="btn">Join us Now!</a></p>
         </div>
     </div>
-    <section class="about">
+    <section id="about">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -65,7 +65,7 @@
             </div>
         </div>
     </section>
-    <section class="promise">
+    <section id="promise">
         <div class="container-fluid">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->

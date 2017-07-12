@@ -1,5 +1,6 @@
 body {
     font-family: 'PT Sans', sans-serif;
+    position: relative;
 }
 
 video#bgvideo {
@@ -171,26 +172,26 @@ video#bgvideo {
     max-width: 1000px;
 }
 
-.about {
+#about {
     color: #fff;
     text-align: center;
     padding-top: 100px;
 }
 
-.about h2 {
+#about h2 {
     font-weight: bold;
 }
 
-.about p {
+#about p {
     font-size: 17px;
     margin-bottom: 30px;
 }
 
-.about img {
+#about img {
     height: 120px;
 }
 
-.promise {
+#promise {
     padding-top: 100px;
 }
 
